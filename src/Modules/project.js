@@ -41,6 +41,13 @@ class Project{
                 case ".AUXDATA":
                 case ".SIG_COMMENT":
                 case ".CBSDATA":
+                case ".STORAGE":
+                case ".MAINTENANCE":
+                case ".ERRLOG":
+                case ".OPELOG":
+                case ".FLTLOG":
+                case ".ID":
+                case ".PGM_EDIT_LOG":
                     programName = this.document.lineAt(index).text.trim().split(' ')[0];
                     this.addSystemProgram(programName,index)
                     break;

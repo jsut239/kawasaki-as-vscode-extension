@@ -26,7 +26,7 @@
     ["\"", "\""]
   ],
   "indentationRules": {
-    "increaseIndentPattern": "^\\s*.PROGRAM\\b|^\\s*IF\\b.*\\bTHEN\\b|^\\s*ELSE\\b|^\\s*WHILE\\b.*\\DO\\b|^\\s*DO\\b|^\\s*FOR\\b.*\\TO\\b|^\\s*CASE\\b.*\\OF\\b|^\\s*SCASE\\b.*\\OF\\b|^\\s*VALUE\\b|^\\s*ANY\\b|^\\s*SVALUE\\b|^\\s*.TRANS\\b|^\\s*.JOINTS\\b|^\\s*.REALS\\b|^\\s*.STRINGS\\b|^\\s*.INTEGER\\b|^\\s*.ROBOTDATA1\\b|^\\s*.OPE_INFO1\\b|^\\s*.SYSDATA\\b|^\\s*.CONDITION\\b|^\\s*.AUXDATA\\b|^\\s*.INTER_PANEL_D\\b|^\\s*.INTER_PANEL_TITLE\\b|^\\s*.INTER_PANEL_COLOR_D\\b|^\\s*.SIG_COMMENT\\b|^\\s*.CBSDATA\\b|^\\s*.LOCAL_PROGRAM\\b",
+    "increaseIndentPattern": "^\\s*.PROGRAM\\b|^\\s*IF\\b.*\\bTHEN\\b|^\\s*ELSE\\b|^\\s*WHILE\\b.*\\DO\\b|^\\s*DO\\b|^\\s*FOR\\b.*\\TO\\b|^\\s*CASE\\b.*\\OF\\b|^\\s*SCASE\\b.*\\OF\\b|^\\s*VALUE\\b|^\\s*ANY\\b|^\\s*SVALUE\\b|^\\s*.TRANS\\b|^\\s*.JOINTS\\b|^\\s*.REALS\\b|^\\s*.STRINGS\\b|^\\s*.INTEGER\\b|^\\s*.ROBOTDATA1\\b|^\\s*.OPE_INFO1\\b|^\\s*.SYSDATA\\b|^\\s*.CONDITION\\b|^\\s*.AUXDATA\\b|^\\s*.INTER_PANEL_D\\b|^\\s*.INTER_PANEL_TITLE\\b|^\\s*.INTER_PANEL_COLOR_D\\b|^\\s*.SIG_COMMENT\\b|^\\s*.CBSDATA\\b|^\\s*.LOCAL_PROGRAM\\b|^\\s*.STORAGE\\b|^\\s*.MAINTENANCE\\b|^\\s*.ERRLOG\\b|^\\s*.OPELOG\\b|^\\s*.FLTLOG\\b|^\\s*.ID\\b",
     "decreaseIndentPattern": "^\\s*\\.END\\b|^\\s*END\\b|^\\s*.End\\b|^\\s*ELSE\\b|^\\s*UNTIL\\b|^\\s*VALUE\\b|^\\s*SVALUE\\b|^\\s*ANY\\b"
   },
   "wordPattern": "[\\w.]+"
