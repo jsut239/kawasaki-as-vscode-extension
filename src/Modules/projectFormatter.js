@@ -48,8 +48,15 @@ function formatCode(code, languageId, lineCount) {
     "^\\s*\\.INTER_PANEL_TITLE\\b",
     "^\\s*\\.INTER_PANEL_COLOR_D\\b",
     "^\\s*\\.SIG_COMMENT\\b",
-    "^\\s*\\.CBSDATA\\b",
-    "^\\s*\\.LOCAL_PROGRAM\\b",
+    "^\\s*\\.CBSDATA\\b", 
+    "^\\s*\\.LOCAL_PROGRAM\\b",   
+    "^\\s*\\.STORAGE\\b",
+    "^\\s*\\.MAINTENANCE\\b",
+    "^\\s*\\.ERRLOG\\b",
+    "^\\s*\\.OPELOG\\b",
+    "^\\s*\\.FLTLOG)\\b",
+    "^\\s*\\.ID\\b",
+    "^\\s*\\.PGM_EDT_LOG\\b",
   ];
   decreaseIndentPattern = ["^\\s*\\.END\\b", "^\\s*END\\b", "^\\s*.End\\b", "^\\s*ELSE\\b", "^\\s*UNTIL\\b", "^\\s*VALUE\\b", "^\\s*SVALUE\\b", "^\\s*ANY\\b"];
 
